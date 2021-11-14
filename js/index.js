@@ -18,6 +18,9 @@ function akangenerate() {
         console.log(`You were born on ${daysOfWeek[dayNumber]} and your Akan name is ${maleAkanNames[dayNumber]}`)
         
     }
+    else {
+        console.log('You did not select the gender or date of birth')
+    }
 
 
 
