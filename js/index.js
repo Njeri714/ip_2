@@ -15,7 +15,7 @@ function akangenerate() {
 
     }
     else if (gender == 'male'){
-        console.log(``)
+        console.log(`You were born on ${daysOfWeek[dayNumber]} and your Akan name is ${maleAkanNames[dayNumber]}`)
         
     }
 
