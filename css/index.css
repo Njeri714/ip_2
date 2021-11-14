@@ -9,3 +9,10 @@ h1{
 span{
     color: darkorange;
 }
+
+h2{
+    text-decoration-line: underline;
+    color: gold;
+    display: flex;
+    align-content: center;
+}
