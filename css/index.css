@@ -5,4 +5,15 @@ p{
 h1{
     color: blue;
 }
-
+.main {
+    display: flex;
+    align-items: center;
+    font-size: small;
+    font-family: sans-serif;
+    font-weight: lighter;
+}
+.must{
+    font-size: small;
+    font-family: sans-serif;
+    font-weight: lighter;
+}
