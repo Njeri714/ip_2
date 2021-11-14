@@ -5,29 +5,7 @@ p{
 h1{
     color: blue;
 }
-/*.main {
-    
-    font-size: small;
-    font-family: sans-serif;
-    font-weight: lighter;
-}
-.must{
-    font-size: small;
-    font-family: sans-serif;
-    font-weight: lighter;
-}
-.row{
-    border: 2px solid black;
-    padding: 6px;
-    margin: 20px;
-    background-color: honeydew;
-    align-content: center;
-}
 
-h3{
-    color: lime;
-}
-
-h2{
-    color: olivedrab;
+span{
+    color: darkorange;
 }
