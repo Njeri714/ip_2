@@ -7,4 +7,5 @@
  function akangenerate(){
      let dateNumber = document.getElementById('date').value
      let gender = document.getElementById('gender').value
+     let dayNumber = new date (date).getday
     }
