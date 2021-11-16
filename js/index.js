@@ -9,11 +9,12 @@ function akangenerate(event) {
    let dateNumber = document.querySelector('#date').value;
     let gender = document.getElementById('gender').value;
 
-    let dayNumber = new Date(date).getDay();
+    let dayNumber = new Date(dateNumber).getDay();
  
     if (gender ==''|| date == ''){
         
         alert('Error! You did not choose gender and date')
+        
     }
     
     else if(gender=='male') {
