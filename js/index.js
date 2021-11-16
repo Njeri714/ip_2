@@ -12,19 +12,19 @@ function akangenerate(event) {
     let dayNumber = new Date (dateNumber).getDay
  
     if (gender =="" || date == ""){
-        document.getElementById('btn btn-primary').innerHTML(`Error! You did not choose gender and date`)
+        
+        alert(`Error! You did not choose gender and date`)
     }
     
     else if(gender == 'female') {
-        document.getElementById('btn btn-primary').innerHTML(`you were born on ${dayOfWeek[dayNumber]} and your Akan name is ${femaleAkanNames[dayNumber]}`)
+        
+        alert(`you were born on ${dayOfWeek[dayNumber]} and your Akan name is ${femaleAkanNames[dayNumber]}`)
 
     }
     else{
-        document.getElementById('btn btn-primary').innerHTML(`You were born on ${dayOfWeek[dayNumber]} and your Akan name is ${maleAkanNames[dayNumber]}`)
+        alert(`You were born on ${dayOfWeek[dayNumber]} and your Akan name is ${maleAkanNames[dayNumber]}`)
         
     }
     
  
 }
-
-

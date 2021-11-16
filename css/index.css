@@ -16,3 +16,8 @@ h2{
     display: flex;
     align-content: center;
 }
+
+.tittle{
+    display: flex;
+    justify-content: center;
+}

@@ -1,84 +1,88 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./css/bootstrap.css" type="text/css">
-    <link rel="stylesheet" href="./css/index.css" type="text/css">
-    <title>Akana Names</title>
-</head>
-<body>
-  <h1>AKAN GENERATE</h1>
-      <p>In old Ghana they named children with the names of the day of week that they were born. Every gender named differently.</p>
-  
-      <div class="row d-flex align-items-center justify-content-center">
-        <div class="col-md-4">
-          <h2>Akan Contents</h2>
-            <div class="akanMale-menu">
-                <div class="card shadow">
-                    <div class="card-body">
-                        <h4 class="card-title"><strong>Male Akan Name</strong> </h4>
-                        <div class="card-text">
-                            <ul>
-                                <li><span>Sunday:</span> Kwasi</li>
-                                <li><span>Monday:</span> Monday: Kwadwo</li>
-                                <li><span>Tuesday:</span> Kwabena</li>
-                                <li><span>Wednesday:</span> Kwaku</li>
-                                <li><span>Thursday:</span> Yaw</li>
-                                <li><span>Friday:</span> Kofi</li>
-                                <li><span>Saturday:</span> Kwame</li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="col-md-4">
-            <div class="akanFemale-menu">
-                <div class="card shadow">
-                    <div class="card-body">
-                        <h4 class="card-title"><strong>Female Akan Name</strong> </h4>
-                        <div class="card-text">
-                            <ul>
-                                <li><span>Sunday:</span> Akosua</li>
-                                <li><span>Monday:</span> Adwoa</li>
-                                <li><span>Tuesday:</span> Abenna</li>
-                                <li><span>Wednesday:</span> Akua</li>
-                                <li><span>Thursday:</span> Yaa</li>
-                                <li><span>Friday:</span> Afua</li>
-                                <li><span>Saturday:</span> Ama</li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
 
-    <div class="container">
-      <form>
-        <fieldset >
-          <legend>Akan names</legend>
-          <div class="mb-3">
-            <label for="date" class="form-label">Enter date of birth</label>
-            <input type="date" id="date" class="form-control" placeholder="">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./css/bootstrap.css" type="text/css">
+  <link rel="stylesheet" href="./css/index.css" type="text/css">
+  <title>Akana Names</title>
+</head>
+
+<body>
+  <div class="title">
+    <h1>AKAN GENERATE</h1>
+    <p>In old Ghana they named children with the names of the day of week that they were born. Every gender named
+      differently.</p>
+  </div>
+  <div class="row d-flex align-items-center justify-content-center">
+    <div class="col-md-4">
+      <h2>Akan Contents</h2>
+      <div class="akanMale-menu">
+        <div class="card shadow">
+          <div class="card-body">
+            <h4 class="card-title"><strong>Male Akan Name</strong> </h4>
+            <div class="card-text">
+              <ul>
+                <li><span>Sunday:</span> Kwasi</li>
+                <li><span>Monday:</span> Monday: Kwadwo</li>
+                <li><span>Tuesday:</span> Kwabena</li>
+                <li><span>Wednesday:</span> Kwaku</li>
+                <li><span>Thursday:</span> Yaw</li>
+                <li><span>Friday:</span> Kofi</li>
+                <li><span>Saturday:</span> Kwame</li>
+              </ul>
+            </div>
           </div>
-          <div class="mb-3">
-            <label for="gender" class="form-label">Select gender</label>
-            <select id="gender" class="form-select">
-              <option value="" >Select gender</option>
-              <option value="male">male</option>
-              <option value="female">female</option>
-            </select>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div class="akanFemale-menu">
+        <div class="card shadow">
+          <div class="card-body">
+            <h4 class="card-title"><strong>Female Akan Name</strong> </h4>
+            <div class="card-text">
+              <ul>
+                <li><span>Sunday:</span> Akosua</li>
+                <li><span>Monday:</span> Adwoa</li>
+                <li><span>Tuesday:</span> Abenna</li>
+                <li><span>Wednesday:</span> Akua</li>
+                <li><span>Thursday:</span> Yaa</li>
+                <li><span>Friday:</span> Afua</li>
+                <li><span>Saturday:</span> Ama</li>
+              </ul>
+            </div>
           </div>
-          <div class="mb-3">
-            
-          </div>
-          <button onclick = "akanGenerate(event)" type="submit" id="btn btn-primary">Submit</button>
-        </fieldset>
-      </form>
-    </div>  
- <script src="./js/index.js"></script>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="container">
+    <form>
+      <fieldset>
+        <legend>Akan names</legend>
+        <div class="mb-3">
+          <label for="date" class="form-label">Enter date of birth</label>
+          <input type="date" id="date" class="form-control" placeholder="">
+        </div>
+        <div class="mb-3">
+          <label for="gender" class="form-label">Select gender</label>
+          <select id="gender" class="form-select">
+            <option value="">Select gender</option>
+            <option value="male">male</option>
+            <option value="female">female</option>
+          </select>
+        </div>
+        <div class="mb-3">
+
+        </div>
+        <button onclick="akanGenerate(event)" type="submit onclick" id="btn btn-primary">Submit</button>
+      </fieldset>
+    </form>
+  </div>
+  <script src="./js/index.js"></script>
 </body>
 </html>
