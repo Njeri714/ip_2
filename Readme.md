@@ -22,8 +22,8 @@ In the website below ia about the project Akan Generate
 Email- charity.waweru@student.moringaschool.com
 
 ## Link 
-1. https://github.com/Njeri714/ip_2
-2. 
+1. https://github.com/Njeri714/ip_2  webpage url
+2. https://njeri714.github.io/ip_2/ gh pages
 
 ## license
 copyright [2021]
