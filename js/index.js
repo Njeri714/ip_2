@@ -2,27 +2,27 @@ let maleAkanNames = ['Kiwasi', 'Kwadwo', 'Kwabena', 'Kwaku', 'Yaw', 'Kofi', 'Kwa
 
 let femaleAkanNames = ['Akasua', 'Adwoa', 'Abenaa', 'Akua', 'Yaa', 'Afua', 'Ama']
 
-let dayOfWeek = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday']
+let weekDays = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday']
 
 function akangenerate(event) {
     event.preventDefault()
-   let dateNumber = document.getElementById ('date').value
-    let gender = document.getElementById('gender').value
+   let dateNumber = document.querySelector('#date').value;
+    let gender = document.getElementById('gender').value;
 
-    let dayNumber = new Date (dateNumber).getDay
+    let dayNumber = new Date(date).getDay();
  
-    if (gender =="" || date == ""){
+    if (gender ==''|| date == ''){
         
-        alert(`Error! You did not choose gender and date`)
+        alert('Error! You did not choose gender and date')
     }
     
-    else if(gender == 'female') {
+    else if(gender=='male') {
         
-        alert(`you were born on ${dayOfWeek[dayNumber]} and your Akan name is ${femaleAkanNames[dayNumber]}`)
+        alert(`you were born on ${weekDays[dayNumber]} and your Akanname is ${maleAkanNames[dayNumber]}`)
 
     }
     else{
-        alert(`You were born on ${dayOfWeek[dayNumber]} and your Akan name is ${maleAkanNames[dayNumber]}`)
+        alert(`You were born on ${weekDays[dayNumber]} and your Akanname is ${femaleAkanNames[dayNumber]}`)
         
     }
     

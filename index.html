@@ -60,9 +60,9 @@
     </div>
   </div>
 
-  <div class="container">
+  <!-- <div class="container">
     <form>
-      <fieldset>
+      /*
         <legend>Akan names</legend>
         <div class="mb-3">
           <label for="date" class="form-label">Enter date of birth</label>
@@ -80,9 +80,37 @@
 
         </div>
         <button onclick="akanGenerate(event)" type="submit onclick" id="btn btn-primary">Submit</button>
-      </fieldset>
+    /*
+    </form> -->
+  
+    <form>
+      <!-- <fieldset disabled> -->
+        <legend>Enter date of birth</legend>
+        <div class="mb-3">
+          <label for="date of birth" class="form-label">date of birth</label>
+          <input type="date" id="date" class="form-control" placeholder="Disabled input">
+        </div>
+        <div class="mb-3">
+          <label for="gender" class="form-label">gender</label>
+          <select id="gender" class="form-select">
+            <option value="select">select gender</option>
+            <option value="male">male</option>
+            <option value="female">female</option>
+          </select>
+        </div>
+        <!-- <div class="mb-3">
+          <div class="gender">
+            <input class="gender" type="checkbox" id="gender" >
+            <label class="gender" for="gender">
+              <option value="select">select</option>
+              <option value="male">male</option>
+              <option value="female">female</option>
+            </label>
+          </div>
+        </div> -->
+        <button onclick="akanGenerate(event)" type="submit" class="btn btn-primary">Submit</button>
+      <!-- </fieldset> -->
     </form>
-  </div>
   <script src="./js/index.js"></script>
 </body>
 </html>
